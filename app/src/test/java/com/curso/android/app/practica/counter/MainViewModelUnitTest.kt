@@ -19,7 +19,7 @@ import org.junit.Test
 @OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)
 class MainViewModelUnitTest {
 
-    private lateinit var viewModel: MainViewModel
+    private lateinit var viewModel: MainViewModel //variable no incializada
 
     @get:Rule
     val instantTaskRule = InstantTaskExecutorRule()
